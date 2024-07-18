@@ -38,7 +38,7 @@ def get_followers(user_id, max_time):
         
         querystring = {
             "user_id": str(user_id),
-            "count": "100",
+            "count": "10",
             "max_time": str(max_time)
         }
 
